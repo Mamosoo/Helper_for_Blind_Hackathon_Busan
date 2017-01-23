@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="KH">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>APP</title>
+	<style>
+		body {
+			background-color:black;
+			margin:0px;
+			overflow-y:hidden;
+			font-family:-webkit-pictograph;
+		}
+
+		.title {
+			text-align:center;
+			width:100%;
+			height:100%;
+			background-color:RGBA(0,0,0,0.7);
+		}
+
+		.mid_box {
+			width:100%;
+			height:1000px;
+			background-image:url("https://meromtzion.files.wordpress.com/2016/06/blind.jpg");
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+		}
+
+		.text {
+			text-align:center;
+			padding-top:10%;
+			color:white;
+			font-size:60px;
+		}
+		<img src=" height="390" width="584"/></style>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function()
+        {
+            $(".onmouse_img").hover(
+                function(){
+                    $(".onmouse_img").attr("src","/Static/css/images/braille_on.png");
+                    $(".onmouse_font").css("color","#a1ffa5");
+                },
+                function(){
+                    $(".onmouse_img").attr("src","/Static/css/images/braille.png");
+                    $(".onmouse_font").css("color","white");
+                }
+            );
+        });
+
+        $(document).ready(function()
+        {
+            $(".onmouse_font").hover(
+                function(){
+                    $(".onmouse_img").attr("src","/Static/css/images/braille_on.png");
+                    $(".onmouse_font").css("color","#a1ffa5");
+                },
+                function(){
+                    $(".onmouse_img").attr("src","/Static/css/images/braille.png");
+                    $(".onmouse_font").css("color","white");
+                }
+            );
+        });
+	</script>
+</head>
+<body>
+<div class="whole_box">
+	<div class="mid_box">
+		<div class="title">
+			<div class="text"><span style="color:#ffaa00">APP</span><br>Helper<br>for<br>Blind</div><br><br><br><br>
+			 
+
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
